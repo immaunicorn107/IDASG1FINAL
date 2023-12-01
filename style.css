@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #e9d5ef; 
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color:.bg;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;  
+    z-index: 1000;
+    display: none;
+}
+
+nav.show {
+    display: block;
+}
+
+
+body {
+    margin-top: 70px;
+}
+
+
+.nav-button {
+    display:inline-block;
+    padding: 5px 10px;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e59aa6;
+    background-color: #000000;
+    border: 2px solid #713797;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.socials img {
+    max-width: 15%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    padding: 2em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.member img {
+    max-width: 35%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+.member img:hover {
+    transform: scale(1.1);
+}
+
+.music-item img {
+
+    max-width: 100%;
+    
+    height: auto;
+    
+    }
+
+.music-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.music-item {
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 5px solid #ce73a8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.music-item:hover {
+    transform: scale(1.05);
+}
+
+video {
+    display: flex;
+    margin-top: -200px;
+    margin-bottom: -35px;
+    width: 100%;
+    height: calc(.5624 * 100vw);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .music-item {
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .music-item {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav {
+        padding: 5px 10px;
+    }
+
+    .nav-button {
+        padding: 8px 16px;
+    }
+
+    section {
+        padding: 1em;
+    }
+
+    .music-item {
+        width: 100%;
+    }
+
+    video {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .member img {
+        width: 80%;
+    }
+}
+
+#merch {
+    background-color: #000000;
+}
+
+.merch-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.merch-item {
+    width: 45%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 5px solid #64edf1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.merch-item:hover {
+    transform: scale(1.05);
+}
+
+.merch-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#merch-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#merch-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+@media screen and (max-width: 768px) {
+    .member img {
+        width: 80%; 
+    }
+}
+
+.read-more-btn {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #3498db; /* Change the background color to match your website */
+        color: #ffffff; /* Change the text color to match your website */
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .read-more-btn:hover {
+        background-color: #2980b9; /* Change the background color on hover */
+    }
+
+    .read-more {
+        display: none;
+        /* Add styles for the additional information here */
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #000000;
+    }    
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+
+}
+h3{
+    text-align: center;
+}
