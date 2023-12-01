@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-    background-color:.bg;
+    background-color: bg ;
     text-align: center;
     padding: 5px;
     position: fixed;

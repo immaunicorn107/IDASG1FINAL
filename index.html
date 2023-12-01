@@ -17,19 +17,7 @@
         </h1>
     </header>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
-    <script>
-        /*document.addEventListener('DOMContentLoaded', function () {
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
+    
     <nav>
         <a href="#home" class="nav-button">Home</a>
         <a href="#about" class="nav-button">About</a>
@@ -38,34 +26,7 @@
         <a href="#merch" class="nav-button">Merch</a>
         <a href="#contact" class="nav-button">Contact</a>
     </nav>
-    <script>
-        /*document.addEventListener('DOMContentLoaded', function () {
-            let prevScrollPos = window.pageYOffset;
-            const navbar = document.querySelector('nav');
-
-            window.addEventListener('scroll', function () {
-                const currentScrollPos = window.pageYOffset;
-
-                if (prevScrollPos > currentScrollPos) {
-                    navbar.classList.add('show');
-                } else {
-                    navbar.classList.remove('show');
-                }
-
-                prevScrollPos = currentScrollPos;
-            });
-
-            // Initial check for visibility
-            if (window.pageYOffset > 50) {
-                navbar.classList.add('show');
-            }
-        });
-    </script>
-
-
-
-
-
+  
     <video autoplay loop muted src="LE SSERAFIM (르세라핌) 'Perfect Night' OFFICIAL M-V with OVERWATCH 2 (2160p).mp4"></video>
 
     <section id="home" class="container">
@@ -313,28 +274,6 @@
                 <a href="#" class="read-more-btn">Read More</a>
             </li>
         </ul>
-        </li>
-
-        <script>
-            /*document.addEventListener("DOMContentLoaded", function () {
-                var readMoreBtns = document.querySelectorAll('.read-more-btn');
-
-                readMoreBtns.forEach(function (readMoreBtn) {
-                    var additionalInfo = readMoreBtn.previousElementSibling;
-
-                    readMoreBtn.addEventListener('click', function () {
-                        if (additionalInfo.style.display === 'none' || additionalInfo.style.display === '') {
-                            additionalInfo.style.display = 'block';
-                            readMoreBtn.textContent = 'Read Less';
-                        } else {
-                            additionalInfo.style.display = 'none';
-                            readMoreBtn.textContent = 'Read More';
-                        }
-                    });
-                });
-            });
-        </script>
-
 
         </ul>
         <select id="music-filter">
@@ -346,24 +285,6 @@
             <option value="yunjinsolo">Yunjin's solo discography</option>
         </select>
 
-        <script>
-            /*document.addEventListener('DOMContentLoaded', function () {
-                const musicFilter = document.getElementById('music-filter');
-                const musicItems = document.querySelectorAll('.music-item');
-
-                musicFilter.addEventListener('change', function () {
-                    const selectedCategory = musicFilter.value;
-
-                    musicItems.forEach(item => {
-                        if (selectedCategory === 'all' || item.dataset.category === selectedCategory) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                });
-            });
-        </script>
     </section>
     <section id="merch" class="container">
         <h2>Merchandise</h2>
